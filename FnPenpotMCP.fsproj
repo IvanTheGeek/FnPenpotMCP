@@ -16,14 +16,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="LMSTUDIO-INTEGRATION.md" />
-    <Content Include="LMSTUDIO-LINUX-MINT.md" />
-    <Content Include="PROJECT-OVERVIEW.md" />
-    <Content Include="resources\*.json">
+    <Content Include="docs/LMSTUDIO-INTEGRATION.md" />
+    <Content Include="docs/LMSTUDIO-LINUX-MINT.md" />
+    <Content Include="docs/PROJECT-OVERVIEW.md" />
+    <Content Include="resources/*.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="RIDER-JUNIE-INTEGRATION.md" />
-    <Content Include="SESSION-LOG.md" />
+    <Content Include="docs/RIDER-JUNIE-INTEGRATION.md" />
+    <Content Include="docs/SESSION-LOG.md" />
   </ItemGroup>
 
   <ItemGroup>

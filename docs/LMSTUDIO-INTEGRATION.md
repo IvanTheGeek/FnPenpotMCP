@@ -479,7 +479,7 @@ The AI will use `get_object_tree` to return the nested structure with a visual r
 If you encounter issues not covered here:
 
 1. **Check the main README:**
-   - See `/home/linux/RiderProjects/FnPenpotMCP/README.md`
+   - See [README.md](../README.md)
 
 2. **Review SESSION-LOG.md:**
    - Technical details about the implementation
@@ -634,7 +634,7 @@ Now that you have the Penpot MCP Server integrated with LM Studio, you can:
 - **LM Studio Documentation:** https://lmstudio.ai/docs
 - **Model Context Protocol Spec:** https://spec.modelcontextprotocol.io/
 - **Penpot Documentation:** https://help.penpot.app/
-- **Project README:** [README.md](README.md)
+- **Project README:** [README.md](../README.md)
 - **Project Overview:** [PROJECT-OVERVIEW.md](PROJECT-OVERVIEW.md)
 
 ---

@@ -488,7 +488,7 @@ Ready to connect this server to your AI assistant? Choose your platform:
 - **[Rider/Junie Integration Guide](RIDER-JUNIE-INTEGRATION.md)** - Connect to JetBrains AI Assistant (Junie)
 
 ### 📚 Documentation
-- **[README.md](README.md)** - Technical documentation
+- **[README.md](../README.md)** - Technical documentation
 - **[SESSION-LOG.md](SESSION-LOG.md)** - Development history
 
 ---

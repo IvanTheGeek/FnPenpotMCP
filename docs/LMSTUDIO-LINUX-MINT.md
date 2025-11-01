@@ -643,7 +643,7 @@ Try these prompts in LM Studio:
 
 Read the other documentation:
 
-- **[README.md](README.md)** - Technical details
+- **[README.md](../README.md)** - Technical details
 - **[PROJECT-OVERVIEW.md](PROJECT-OVERVIEW.md)** - What the project does
 - **[LMSTUDIO-INTEGRATION.md](LMSTUDIO-INTEGRATION.md)** - General LM Studio guide
 - **[RIDER-JUNIE-INTEGRATION.md](RIDER-JUNIE-INTEGRATION.md)** - Using with JetBrains Rider

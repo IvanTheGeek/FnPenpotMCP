@@ -703,7 +703,7 @@ If issues persist:
    - Look for detailed error messages
 
 3. **Review documentation:**
-   - [README.md](README.md) - General information
+   - [README.md](../README.md) - General information
    - [PROJECT-OVERVIEW.md](PROJECT-OVERVIEW.md) - User guide
    - [SESSION-LOG.md](SESSION-LOG.md) - Technical details
 
@@ -961,7 +961,7 @@ Now that you've integrated Penpot MCP with Rider/Junie:
 - **Junie AI Assistant:** https://www.jetbrains.com/ai/
 - **Model Context Protocol:** https://spec.modelcontextprotocol.io/
 - **Penpot:** https://penpot.app/
-- **Project README:** [README.md](README.md)
+- **Project README:** [README.md](../README.md)
 - **LM Studio Integration:** [LMSTUDIO-INTEGRATION.md](LMSTUDIO-INTEGRATION.md)
 - **Project Overview:** [PROJECT-OVERVIEW.md](PROJECT-OVERVIEW.md)
 

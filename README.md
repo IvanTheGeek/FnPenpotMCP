@@ -255,13 +255,13 @@ See the LICENSE file for full details.
 
 Learn how to integrate this MCP server with different tools:
 
-- **[LM Studio Integration](LMSTUDIO-INTEGRATION.md)** - General guide for integrating with LM Studio on any platform
-- **[LM Studio on Linux Mint](LMSTUDIO-LINUX-MINT.md)** - Beginner-friendly guide specifically for Linux Mint users (includes TLDR and detailed explanations)
-- **[JetBrains Rider/Junie Integration](RIDER-JUNIE-INTEGRATION.md)** - Guide for using with JetBrains Rider and Junie AI assistant
+- **[LM Studio Integration](docs/LMSTUDIO-INTEGRATION.md)** - General guide for integrating with LM Studio on any platform
+- **[LM Studio on Linux Mint](docs/LMSTUDIO-LINUX-MINT.md)** - Beginner-friendly guide specifically for Linux Mint users (includes TLDR and detailed explanations)
+- **[JetBrains Rider/Junie Integration](docs/RIDER-JUNIE-INTEGRATION.md)** - Guide for using with JetBrains Rider and Junie AI assistant
 
 Also see:
-- **[Project Overview](PROJECT-OVERVIEW.md)** - User-friendly introduction to what this project does
-- **[Session Log](SESSION-LOG.md)** - Development history and implementation details
+- **[Project Overview](docs/PROJECT-OVERVIEW.md)** - User-friendly introduction to what this project does
+- **[Session Log](docs/SESSION-LOG.md)** - Development history and implementation details
 
 ## Acknowledgments
 
