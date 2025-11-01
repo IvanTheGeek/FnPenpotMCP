@@ -216,7 +216,11 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+This is a derivative work of the Python project [penpot-mcp](https://github.com/montevive/penpot-mcp), which was originally licensed under the MIT License. Under the permissive terms of the MIT License, this derivative work has been relicensed under AGPL-3.0 to ensure that any further modifications and enhancements remain freely available to all users.
+
+See the LICENSE file for full details.
 
 ## Integration Guides
 
@@ -232,12 +236,13 @@ Also see:
 
 ## Acknowledgments
 
-- Original Python implementation: [penpot-mcp](https://github.com/IvanTheGeek/penpot-mcp)
+- Original Python implementation: [penpot-mcp](https://github.com/montevive/penpot-mcp)
 - [Penpot](https://penpot.app/) - The open-source design platform
 - [Model Context Protocol](https://modelcontextprotocol.io) - Standardized protocol for AI context
 
 ## See Also
 
 - [Penpot Documentation](https://help.penpot.app/)
+- [Penpot API Documentation](https://penpot-plugins-api-doc.pages.dev/)
 - [F# Documentation](https://docs.microsoft.com/en-us/dotnet/fsharp/)
 - [MCP Specification](https://spec.modelcontextprotocol.io/)

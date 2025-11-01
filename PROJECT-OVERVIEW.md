@@ -523,7 +523,11 @@ Your contributions are welcome!
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+This is a derivative work of the Python project [penpot-mcp](https://github.com/montevive/penpot-mcp), which was originally licensed under the MIT License. Under the permissive terms of the MIT License, this derivative work has been relicensed under AGPL-3.0 to ensure that any further modifications and enhancements remain freely available to all users.
+
+See the LICENSE file for full details.
 
 ---
 
