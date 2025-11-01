@@ -218,6 +218,18 @@ Contributions are welcome! Please feel free to submit issues or pull requests.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+## Integration Guides
+
+Learn how to integrate this MCP server with different tools:
+
+- **[LM Studio Integration](LMSTUDIO-INTEGRATION.md)** - General guide for integrating with LM Studio on any platform
+- **[LM Studio on Linux Mint](LMSTUDIO-LINUX-MINT.md)** - Beginner-friendly guide specifically for Linux Mint users (includes TLDR and detailed explanations)
+- **[JetBrains Rider/Junie Integration](RIDER-JUNIE-INTEGRATION.md)** - Guide for using with JetBrains Rider and Junie AI assistant
+
+Also see:
+- **[Project Overview](PROJECT-OVERVIEW.md)** - User-friendly introduction to what this project does
+- **[Session Log](SESSION-LOG.md)** - Development history and implementation details
+
 ## Acknowledgments
 
 - Original Python implementation: [penpot-mcp](https://github.com/IvanTheGeek/penpot-mcp)
