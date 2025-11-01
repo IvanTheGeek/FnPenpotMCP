@@ -30,8 +30,19 @@ For each prompt received from the user:
      - Title: Brief description of what was accomplished
      - Description: More detailed explanation of changes/actions taken
    - Commit should include:
-     - The new interaction log file
+     - The new interaction log file(s)
      - Any files created/modified during the session
+
+4. **Create a terminal log file** (companion to the main interaction log):
+   - Format: `YYYY-MM-DD_HH-mm_Summary_TERMINAL.md`
+   - Same base name as the main interaction log file, with `_TERMINAL` added before `.md`
+   - Example: `2025-11-01_13-23_Create_Junie_guidelines_file_TERMINAL.md`
+   - **File contents must include**:
+     - All terminal commands executed during the session
+     - Complete terminal output as reported when user clicks OPEN for terminal commands
+     - Both successful command outputs and any errors encountered
+     - Timestamps or sequence information if relevant
+   - This file captures the technical execution details separate from the conversation flow
 
 ### Git Repository Initialization
 When initializing new git repositories:
