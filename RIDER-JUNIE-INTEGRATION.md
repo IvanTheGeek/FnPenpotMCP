@@ -230,7 +230,7 @@ For better performance, publish a release build:
 
 ```bash
 cd /home/linux/RiderProjects/FnPenpotMCP
-dotnet publish -c Release -o ./publish
+dotnet publish ./FnPenpotMCP.fsproj -c Release -o ./publish
 ```
 
 2. **Update MCP configuration to use the binary:**
@@ -643,8 +643,8 @@ Junie will:
 
 1. **Use published binary:**
    ```bash
-   dotnet publish -c Release -o ./publish
-   ```
+  dotnet publish ./FnPenpotMCP.fsproj -c Release -o ./publish
+  ```
    Update MCP config to use `./publish/FnPenpotMCP`
 
 2. **Disable debug logging:**

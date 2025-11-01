@@ -190,7 +190,7 @@ dotnet test
 ### Publishing
 
 ```bash
-dotnet publish -c Release -o ./publish
+dotnet publish ./FnPenpotMCP.fsproj -c Release -o ./publish
 ```
 
 ## Differences from Python Version

@@ -204,7 +204,7 @@ To create a published build:
 
 ```bash
 cd /home/linux/RiderProjects/FnPenpotMCP
-dotnet publish -c Release -o ./bin/Release/net9.0/publish
+dotnet publish ./FnPenpotMCP.fsproj -c Release -o ./bin/Release/net9.0/publish
 ```
 
 ### Step 3: Restart LM Studio
