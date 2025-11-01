@@ -6,13 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Config.fs" />
-    <Compile Include="Cache.fs" />
-    <Compile Include="HttpServer.fs" />
-    <Compile Include="PenpotApi.fs" />
-    <Compile Include="PenpotTree.fs" />
-    <Compile Include="McpServer.fs" />
-    <Compile Include="Program.fs" />
+    <Compile Include="src/Config.fs" />
+    <Compile Include="src/Cache.fs" />
+    <Compile Include="src/HttpServer.fs" />
+    <Compile Include="src/PenpotApi.fs" />
+    <Compile Include="src/PenpotTree.fs" />
+    <Compile Include="src/McpServer.fs" />
+    <Compile Include="src/Program.fs" />
   </ItemGroup>
 
   <ItemGroup>
