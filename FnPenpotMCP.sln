@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FnPenpotMCP", "FnPenpotMCP.fsproj", "{94490347-2AC0-4CED-A626-DB04E5A4DF82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Debug|x64.Build.0 = Debug|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Debug|x86.Build.0 = Debug|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Release|x64.ActiveCfg = Release|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Release|x64.Build.0 = Release|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Release|x86.ActiveCfg = Release|Any CPU
+		{94490347-2AC0-4CED-A626-DB04E5A4DF82}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
