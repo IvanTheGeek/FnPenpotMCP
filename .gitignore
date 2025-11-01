@@ -3,3 +3,8 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+
+# Environment files (do not commit secrets)
+.env
+.env.*
+!.env.example
