@@ -193,6 +193,35 @@ dotnet test
 dotnet publish ./FnPenpotMCP.fsproj -c Release -o ./publish
 ```
 
+### Do you need to update `.env` before publishing?
+
+Short answer: No.
+
+- The publish step bundles your compiled app and its runtime dependencies. It does not read, embed, or require your `.env` file.
+- Environment values are only read at application startup at runtime. Changing `.env` never requires rebuilding or republishing.
+
+### Is a `.env` file needed for the published binary to work?
+
+Not required, but supported.
+
+This app loads configuration in this order at startup:
+1. Standard environment variables provided by the OS/process environment.
+2. Optionally, a `.env` file in the current working directory (via `DotNetEnv`). If no `.env` is present, it’s simply ignored.
+
+Therefore, in production you have two options:
+- Recommended: set required variables via your process manager or hosting environment (e.g., systemd `Environment=`, Docker `-e` flags, Kubernetes secrets, cloud service env settings).
+- Alternative: place a `.env` file alongside where you run the binary and ensure the process working directory is the same directory that contains the `.env` file.
+
+Required variables for successful Penpot authentication:
+- `PENPOT_USERNAME`
+- `PENPOT_PASSWORD`
+
+Other optional variables are listed in the Configuration Options table above.
+
+Security notes:
+- Never commit `.env` to version control.
+- Prefer secret managers or host-provided env vars over `.env` files in production.
+
 ## Differences from Python Version
 
 While maintaining feature parity, this F# version includes:
