@@ -62,3 +62,44 @@ This file records all terminal commands executed during this session and their o
    ```
 
 End of terminal log.
+
+
+7. Command:
+   ```bash
+   git ls-files .env.example
+   ```
+   Output:
+   ```
+   .env.example
+   ```
+
+8. Command:
+   ```bash
+   mv AI_Interactions/2025-11-01_17-58_Remove_.env_from_git_TERMINAL.md AI_Interactions/2025-11-01_17-58_Remove_env_from_git_TERMINAL.md
+   ```
+   Output:
+   ```
+   
+   ```
+
+9. Command:
+   ```bash
+   rm AI_Interactions/2025-11-01_17-58_Remove_.env_from_git.md
+   ```
+   Output:
+   ```
+   
+   ```
+
+10. Command:
+    ```bash
+    git add -A && git commit -m "Remove .env from Git tracking; add ignore rules" -m "- Added .gitignore entries for .env and .env.* with exception for .env.example\n- Removed .env from index using git rm --cached (file remains locally)\n- Added AI_Interactions logs for this prompt (interaction + terminal)" && git status -s
+    ```
+    Output:
+    ```
+    [main 9c7a73f] Remove .env from Git tracking; add ignore rules
+     4 files changed, 131 insertions(+), 20 deletions(-)
+     delete mode 100644 .env
+     create mode 100644 AI_Interactions/2025-11-01_17-58_Remove_env_from_git.md
+     create mode 100644 AI_Interactions/2025-11-01_17-58_Remove_env_from_git_TERMINAL.md
+    ```
