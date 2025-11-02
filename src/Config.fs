@@ -3,8 +3,12 @@ module FnPenpotMCP.Config
 open System
 open System.IO
 
-// Load environment variables at module initialization
-do DotNetEnv.Env.Load() |> ignore
+// Load environment variables at module initialization (optional; don't fail if .env missing)
+do
+    try
+        // Look for .env in current working directory; ignore if not found
+        DotNetEnv.Env.Load() |> ignore
+    with _ -> ()
 
 // Helper to get environment variable with default
 let private getEnvOrDefault key defaultValue =
@@ -41,6 +45,7 @@ let penpotUsername = getEnvOrDefault "PENPOT_USERNAME" ""
 let penpotPassword = getEnvOrDefault "PENPOT_PASSWORD" ""
 
 // Resources path
+// Use AppContext.BaseDirectory for single-file publish compatibility
 let resourcesPath = 
-    let currentDir = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)
-    Path.Combine(currentDir, "resources")
+    let baseDir = AppContext.BaseDirectory
+    Path.Combine(baseDir, "resources")
